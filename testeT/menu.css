@@ -1,0 +1,106 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+    height: 500px;
+    width: 980px;
+    background-image: url(fundo.png);
+}
+#cima{
+    background-color: #FFBBF8;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: Instrument Serif;
+    font-size: 25px;
+}
+
+#cabecalho1{
+    position: absolute;
+    max-width: 400px;
+    top: 20px;
+}
+
+#cabecalho2{
+    position: absolute;
+    right: -11px;
+    max-width: 400px;
+    top: 20px;
+}
+
+#voltar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 933px;
+    background-color: #FFBBF8;
+    font-size: 20px;
+    
+}
+
+#cu{
+    text-align: center;
+}
+
+#generos{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 30px auto ;
+    background-color: #F9E4F7;
+    border-radius: 2rem;
+    border-color: white;
+    text-align: center;
+    padding: 15px;
+}
+#generos:hover {
+    border-color: #ad44a3;
+    transform: translateY(-0.5em);
+}
+
+#acao:hover, #romance:hover, #suspense:hover, #terror:hover{
+    background-color: #FFBBF8;
+}
+
+#acao{
+    background-color: #FFF3FE;
+    font-family: Serif;
+    border-radius: 2rem;
+    width: 150px;
+    right: 150px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px auto;
+}
+
+#romance{
+    background-color: #FFF3FE;
+    font-family: Serif;
+    border-radius: 2rem;
+    width: 150px;
+    right: 150px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px auto;
+}
+
+#suspense{
+    background-color: #FFF3FE;
+    font-family: Serif;
+    border-radius: 2rem;
+    width: 150px;
+    right: 150px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px auto;
+}
+
+#terror{
+    background-color: #FFF3FE;
+    font-family: Serif;
+    border-radius: 2rem;
+    width: 150px;
+    right: 150px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px auto;
+}

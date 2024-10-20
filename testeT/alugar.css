@@ -1,0 +1,93 @@
+*{padding: 0;margin: 0;}
+body{
+    height: 100%;
+    background-image: url(fundo.png);
+}
+#cima{
+    background-color: #FFBBF8;
+    right: 00px;
+    color: black;
+    padding: 65px;
+    font-family: serif; 
+    width: 100%;  
+}
+#cabecalho1{
+    position: absolute;
+    max-width: 380px;
+    top: 7px;
+    right: 610px;
+}
+#cabecalho2{
+    position: absolute;
+    max-width: 380px;
+    top: 7px;
+    right: 260px;
+}
+#cabecalho3{
+    position: absolute;
+    max-width: 380px;
+    top: 7px;
+    right: -90px;
+}
+
+#cu{
+    text-align: center;
+}
+
+#cadastro{
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 30px auto ;
+    background-color: #FFBBF8;
+    border-radius: 2rem;
+    border-color: white;
+    text-align: center;
+    padding: 15px;
+}
+#cadastro:hover {
+    border-color: #ad44a3;
+    transform: translateY(-0.5em);
+}
+
+#form{
+    padding: 50px;
+}
+
+#name{
+    font-family:serif;
+    font-size: small;
+    margin: 20px ; 
+}
+
+
+#confirmar{
+    background-color: #EF7CE4;
+    font-family: Serif;
+    border-radius: 2rem;
+    width: 150px;
+    right: 150px;
+    padding: 10px;
+    border: 10px;
+    margin: 20px auto;
+}
+#confirmar:hover {
+    border-color: #5c1054;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.6em 0.6em -0.3em #5c1054;
+    transform: translateY(-0.3em);
+}
+
+#inicio{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 933px;
+    background-color: #FFBBF8;
+    font-size: 20px;
+}
+
+h3{
+    font-size: small;
+}

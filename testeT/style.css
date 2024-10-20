@@ -1,0 +1,162 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+    height: 700px;
+    width: 980px;
+}
+#cima{
+    background-color: #FFBBF8;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: Instrument Serif;
+    font-size: 25px;
+}
+
+#cabecalho1{
+    position: absolute;
+    max-width: 400px;
+    top: 20px;
+}
+
+#cabecalho2{
+    position: absolute;
+    right: -11px;
+    max-width: 400px;
+    top: 20px;
+}
+
+#menu{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    background-color: #FFBBF8;
+    font-size: 25px;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 35px auto;
+}
+.book-row {
+    display: flex;
+}
+.book-card {
+    min-width: 250px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.book-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.book-info {
+    padding: 10px;
+}
+.book-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-author {
+    color: #666;
+    font-size: 0.9em;
+}
+.nav-buttons {
+    position: absolute;
+    margin-bottom: 20px;
+    width: 800px;
+    
+}
+#prevBtn{
+    width: 15px;
+    height: 40px;
+    right: 722px;
+    position: absolute;
+    top: 180px;
+}
+#nextBtn{
+    width: 15px;
+    height: 40px;
+    position: absolute;
+    right: -120px;
+    top: 190px;
+}
+#esquerda{
+    position: absolute;
+    font-size: 60px;
+    right: -10px;
+    top: -10px;
+    
+}
+#direita{
+    position: absolute;
+    font-size: 60px;
+    right: -20px;
+    top: -10px;
+    
+}
+#esquerda:hover, #direita:hover{
+
+        color: rgb(134, 134, 134);
+        transform: translateY(-0.1em);
+}
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+#alugar1, #alugar2, #alugar3{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+#botoes{
+    text-align: center;
+}
+ 
+#alugar1{
+    position: absolute;
+    background-color: #F213E0;
+    font-family: Serif;
+    top: 610px;
+    right: 625px;
+}
+
+#alugar2{
+    position: absolute;
+    background-color: #F213E0;
+    font-family: Serif;
+    top: 610px;
+    right: 350px;
+}
+
+#alugar3{
+    position: absolute;
+    background-color: #F213E0;
+    font-family: Serif;
+    top: 610px;
+    right: 80px;
+}
+#alugar1:hover, #alugar2:hover, #alugar3:hover {
+    box-shadow: 1px 1px 200px #f800e3;
+    color: #000000;
+  }
+
+  
+
